@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url(pic3.jpg);
+            background-size: cover;
+        }
+        #mainContainer{
+            height: 500px;
+            width: 60%;
+            /* background-color: blue; */
+            margin-left: 20%;
+            margin-top: 3.5rem;
+        }
+        #left{
+            height: 500px;
+            width: 60%;
+            background-color: rgba(146, 153, 152, 0.521);
+            float: left;
+            background-image: url(pic1.png);
+            background-size: cover;
+            background-position: 71%;
+        }
+        #right{
+            height: 500px;
+            width: 40%;
+            background-color: rgba(192, 196, 134, 0.726);
+            float: left;
+            /* opacity: 50%; */
+            
+        }
+        #login{
+            height:300px;
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 8rem;
+            /* background-color: rgb(255,255,255); */
+        }
+
+        input[type=email]{
+            width: 88%;
+            padding: 10px;
+            font-size: 18px;
+            margin-top: 8px;
+
+            border: none;
+            border-bottom-style: solid;
+            border-bottom-color: black;
+            border-bottom-width: 3px; 
+            background-color: transparent;
+           
+            
+            
+        }
+        input[type=password]{
+            width: 88%;
+            padding: 10px;
+            font-size: 18px;
+            margin-top: 8px;
+
+            border: none;
+            border-bottom-style: solid;
+            border-bottom-color: black;
+            border-bottom-width: 3px; 
+            background-color: transparent;
+        }
+
+        input[type=submit]{
+            align-items: center;
+            appearance: none;
+            border-radius: 4px;
+            border-style: none;
+            box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px,rgba(0, 0, 0, .14) 0 2px 2px 0,rgba(0, 0, 0, .12) 0 1px 5px 0;
+            background-color:rgba(7, 7, 237, 0.575);
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: Roboto,sans-serif;
+            font-size: .875rem;
+            font-weight: 500;
+            height: 36px;
+            justify-content: center;
+            letter-spacing: .0892857em;
+            line-height: normal;
+            min-width: 64px;
+            outline: none;
+            overflow: visible;
+            padding: 0 16px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            vertical-align: middle;
+            will-change: transform,opacity;
+            margin-left: 33%;
+            margin-top: 20%;
+        }
+
+
+        input[type=submit]:hover {
+        box-shadow: rgba(0, 0, 0, .2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px0;}
+    </style>
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="left"></div>
+        <div id="right">
+            <div id="login">
+                <form action="">
+                <input type="email"  placeholder="Enter your email" required> <br>
+                <input type="password" placeholder="Enter your password"required> <br>
+                <input type="Submit" class="button-61">
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
